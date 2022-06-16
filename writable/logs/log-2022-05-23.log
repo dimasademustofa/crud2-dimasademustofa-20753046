@@ -1,0 +1,8 @@
+CRITICAL - 2022-05-23 00:57:26 --> Undefined variable $data
+#0 C:\xampp\htdocs\myproject\app\Controllers\Blog.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 8)
+#1 C:\xampp\htdocs\myproject\system\CodeIgniter.php(832): App\Controllers\Blog->index()
+#2 C:\xampp\htdocs\myproject\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+#3 C:\xampp\htdocs\myproject\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\myproject\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\myproject\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}

@@ -1,0 +1,70 @@
+ERROR - 2022-06-15 04:33:49 --> Unknown column 'id' in 'where clause'
+CRITICAL - 2022-06-15 04:33:49 --> Unknown column 'id' in 'where clause'
+#0 C:\xampp\htdocs\myproject\system\Database\MySQLi\Connection.php(292): mysqli->query('DELETE FROM `da...', 0)
+#1 C:\xampp\htdocs\myproject\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `da...')
+#2 C:\xampp\htdocs\myproject\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `da...')
+#3 C:\xampp\htdocs\myproject\system\Database\BaseBuilder.php(2225): CodeIgniter\Database\BaseConnection->query('DELETE FROM `da...', Array, false)
+#4 C:\xampp\htdocs\myproject\system\Model.php(359): CodeIgniter\Database\BaseBuilder->delete()
+#5 C:\xampp\htdocs\myproject\system\BaseModel.php(963): CodeIgniter\Model->doDelete(Array, false)
+#6 C:\xampp\htdocs\myproject\app\Controllers\About.php(39): CodeIgniter\BaseModel->delete(Array)
+#7 C:\xampp\htdocs\myproject\system\CodeIgniter.php(832): App\Controllers\About->delete('20753047')
+#8 C:\xampp\htdocs\myproject\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\About))
+#9 C:\xampp\htdocs\myproject\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\myproject\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\myproject\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+ERROR - 2022-06-15 04:35:13 --> Unknown column 'id' in 'where clause'
+CRITICAL - 2022-06-15 04:35:13 --> Unknown column 'id' in 'where clause'
+#0 C:\xampp\htdocs\myproject\system\Database\MySQLi\Connection.php(292): mysqli->query('DELETE FROM `da...', 0)
+#1 C:\xampp\htdocs\myproject\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `da...')
+#2 C:\xampp\htdocs\myproject\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `da...')
+#3 C:\xampp\htdocs\myproject\system\Database\BaseBuilder.php(2225): CodeIgniter\Database\BaseConnection->query('DELETE FROM `da...', Array, false)
+#4 C:\xampp\htdocs\myproject\system\Model.php(359): CodeIgniter\Database\BaseBuilder->delete()
+#5 C:\xampp\htdocs\myproject\system\BaseModel.php(963): CodeIgniter\Model->doDelete(Array, false)
+#6 C:\xampp\htdocs\myproject\app\Controllers\About.php(39): CodeIgniter\BaseModel->delete(Array)
+#7 C:\xampp\htdocs\myproject\system\CodeIgniter.php(832): App\Controllers\About->delete('20753047')
+#8 C:\xampp\htdocs\myproject\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\About))
+#9 C:\xampp\htdocs\myproject\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\myproject\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\myproject\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2022-06-15 05:46:58 --> Undefined variable $masuk
+#0 C:\xampp\htdocs\myproject\app\Controllers\auth.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 12)
+#1 C:\xampp\htdocs\myproject\system\CodeIgniter.php(832): App\Controllers\auth->index()
+#2 C:\xampp\htdocs\myproject\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\auth))
+#3 C:\xampp\htdocs\myproject\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\myproject\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\myproject\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-06-15 05:51:24 --> Undefined variable $auth
+#0 C:\xampp\htdocs\myproject\app\Controllers\auth.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 12)
+#1 C:\xampp\htdocs\myproject\system\CodeIgniter.php(832): App\Controllers\auth->index()
+#2 C:\xampp\htdocs\myproject\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\auth))
+#3 C:\xampp\htdocs\myproject\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\myproject\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\myproject\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-06-15 05:55:47 --> syntax error, unexpected token "class"
+#0 C:\xampp\htdocs\myproject\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('auth')
+#1 C:\xampp\htdocs\myproject\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('auth')
+#2 C:\xampp\htdocs\myproject\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\myproject\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\myproject\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\myproject\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-06-15 05:57:35 --> Undefined variable $err
+#0 C:\xampp\htdocs\myproject\app\Controllers\auth.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 19)
+#1 C:\xampp\htdocs\myproject\system\CodeIgniter.php(832): App\Controllers\auth->index()
+#2 C:\xampp\htdocs\myproject\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\auth))
+#3 C:\xampp\htdocs\myproject\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\myproject\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\myproject\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-06-15 07:54:50 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\myproject\app\Controllers\auth.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 21)
+#1 C:\xampp\htdocs\myproject\system\CodeIgniter.php(832): App\Controllers\auth->index()
+#2 C:\xampp\htdocs\myproject\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\auth))
+#3 C:\xampp\htdocs\myproject\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\myproject\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\myproject\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}

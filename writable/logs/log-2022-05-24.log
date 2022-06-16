@@ -1,0 +1,40 @@
+CRITICAL - 2022-05-24 23:31:00 --> Invalid file: CV.php
+#0 C:\xampp\htdocs\myproject\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('CV.php')
+#1 C:\xampp\htdocs\myproject\system\Common.php(1089): CodeIgniter\View\View->render('CV', Array, true)
+#2 C:\xampp\htdocs\myproject\app\Controllers\About.php(9): view('CV', Array)
+#3 C:\xampp\htdocs\myproject\system\CodeIgniter.php(832): App\Controllers\About->index()
+#4 C:\xampp\htdocs\myproject\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\About))
+#5 C:\xampp\htdocs\myproject\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\myproject\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\myproject\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-05-24 23:31:22 --> Invalid file: CV.php
+#0 C:\xampp\htdocs\myproject\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('CV.php')
+#1 C:\xampp\htdocs\myproject\system\Common.php(1089): CodeIgniter\View\View->render('CV', Array, true)
+#2 C:\xampp\htdocs\myproject\app\Controllers\About.php(9): view('CV', Array)
+#3 C:\xampp\htdocs\myproject\system\CodeIgniter.php(832): App\Controllers\About->index()
+#4 C:\xampp\htdocs\myproject\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\About))
+#5 C:\xampp\htdocs\myproject\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\myproject\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\myproject\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-05-24 23:32:04 --> Invalid file: CV.php
+#0 C:\xampp\htdocs\myproject\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('CV.php')
+#1 C:\xampp\htdocs\myproject\system\Common.php(1089): CodeIgniter\View\View->render('CV', Array, true)
+#2 C:\xampp\htdocs\myproject\app\Controllers\About.php(9): view('CV', Array)
+#3 C:\xampp\htdocs\myproject\system\CodeIgniter.php(832): App\Controllers\About->index()
+#4 C:\xampp\htdocs\myproject\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\About))
+#5 C:\xampp\htdocs\myproject\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\myproject\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\myproject\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-05-24 23:33:03 --> Invalid file: CV.php
+#0 C:\xampp\htdocs\myproject\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('CV.php')
+#1 C:\xampp\htdocs\myproject\system\Common.php(1089): CodeIgniter\View\View->render('CV', Array, true)
+#2 C:\xampp\htdocs\myproject\app\Controllers\About.php(9): view('CV', Array)
+#3 C:\xampp\htdocs\myproject\system\CodeIgniter.php(832): App\Controllers\About->index()
+#4 C:\xampp\htdocs\myproject\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\About))
+#5 C:\xampp\htdocs\myproject\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\myproject\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\myproject\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
