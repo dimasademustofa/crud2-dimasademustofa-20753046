@@ -13,12 +13,12 @@ class About extends BaseController
         echo view('CV', [
         	'data' => $this->data->first()]);
     }
-    public function add()
+    function add()
     {
     	echo view('add', [
     		'data'=> $this->data->findAll()]);
     }
-    public function simpan()
+    function simpan()
     {
     	$this->data->save(
     	 [
@@ -32,11 +32,11 @@ class About extends BaseController
                 'notlp' => $this->request->getVar('notlp'),
                 'hobi' => $this->request->getVar('hobi'),
             ]);
-            return redirect()->to('about');
+            return redirect()->to('/about');
     }
     function delete($npm) {
         $this->data->delete($npm);
-        return redirect()->to('about');
+        return redirect()->to('/about');
     }
     function get_edit($npm) {
         $result =  $this->data->where(['npm' => $npm])->get();
@@ -53,7 +53,7 @@ class About extends BaseController
                 'notlp' => $i['notlp'],
                 'hobi' => $i['hobi'],
             ];
-            return view('add', $data);
+            return view('edit', $data);
         } else {
             echo "Data Was Not Found";
         }
@@ -70,6 +70,6 @@ class About extends BaseController
                 'notlp' => $this->request->getVar('notlp'),
                 'hobi' => $this->request->getVar('hobi'),
         ]);
-        return redirect()->to('about');
+        return redirect()->to('/about');
     }
 }

@@ -46,7 +46,7 @@
                 <label for="">Alamat</label>
             </div>
             <div class="col-lg-6">
-                <input type="date" class="form-control" name="alamat" placeholder="Masukkan Alamat...." value="<?= $alamat; ?>">
+                <input type="text" class="form-control" name="alamat" placeholder="Masukkan Alamat...." value="<?= $alamat; ?>">
             </div>
         </div>
 
@@ -64,7 +64,7 @@
                 <label for="">Agama</label>
             </div>
             <div class="col-lg-6">
-                <input type="text" class="form-control" name="agama" placeholder="Masukkan Agama...." value="<?= $no_hp; ?>">
+                <input type="text" class="form-control" name="agama" placeholder="Masukkan Agama...." value="<?= $agama; ?>">
             </div>
         </div>
 
